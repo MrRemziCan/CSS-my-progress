@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /*PAGE SECTIONS*/
 body {
@@ -12,7 +13,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto;
   position: relative;*/
@@ -21,7 +22,7 @@ body {
 
 .main-header {
   background-color: #f7f7f7;
-  background-color: red;
+
   padding: 20px 40px;
   margin-bottom: 60px;
   /*height: 80px;*/
@@ -44,8 +45,8 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
+  box-sizing: border-box;
 }
 
 /*SMALLER ELEMENTS*/
@@ -79,6 +80,7 @@ h4 {
 
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -126,6 +128,7 @@ li:last-child {
 }
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 /*.first-li {
@@ -248,4 +251,18 @@ nav {
   clear: both;
   content: "";
   display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
